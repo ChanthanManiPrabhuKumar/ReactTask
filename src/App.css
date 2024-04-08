@@ -1,0 +1,89 @@
+*{
+  margin:0;
+  padding:0;
+  text-decoration: none;
+}
+.contain{
+  display:flex;
+}
+main{
+  width: 100%;
+  padding: 5px;
+}
+.sidebar{
+  background-image: linear-gradient(145deg, blue,rgb(34, 29, 29));
+  color: #fff;
+  height: 100vh;
+  width: 300px;
+  transition: all 0.5s;
+}
+.top_section{
+  display: flex;
+  align-items:center;
+  padding:20px 15px;
+}
+.logo .img{
+  font-size: 20px;
+}
+.image1{
+  border-radius: 50%;
+  height: 40px;
+}
+.bars{
+  display: flex;
+  font-size: 25px;
+  margin-left: 50px;
+  cursor: pointer;
+}
+.link{
+  display: flex;
+  color: #fff;
+  padding: 10px 15px;
+  gap: 15px;
+  transition: all 0.5s;
+  cursor: pointer;
+  text-decoration: none;
+}
+.link:hover{
+  background:rgb(244, 223, 132);
+  color: #000;
+  transition: all 0.5s;
+}
+.active{
+  background: rgb(227, 190, 40);
+  color: #000;
+}
+.icon, .link_text{
+  font-size: 20px;
+}
+#over-scroll{
+  overflow: scroll;
+  height: 500px;
+}
+.pie-chart{
+  height: 60px;
+  width: 60px;
+}
+.container-fluid{
+  background-color: #000;
+  padding: 5px;
+}
+@media (max-width : 576px) {
+  #input1, #img2 {
+    display: none;
+  }
+}#input1{
+  margin-top: 5px;
+  width: 100%;
+  border-radius: 5px;
+  padding: 8px;
+}
+#img2{
+  font-size: larger;
+  margin-top: 5px;
+  padding: 5px;
+  margin-left: 100px;
+  margin-right: 0px;
+  color: #fff;
+  text-align: center;
+}
